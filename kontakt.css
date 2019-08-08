@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(193 167 135);
+  height: 700px;
+}
+
+.wrapper {
+  width: 1050px;
+  margin: auto;
+  background-color: rgba(218 192 160);
+}
+
+.logo {
+  margin-top: 20px;
+  padding: 40px;
+}
+
+.logo a {
+  margin-top: 20px;
+  line-height: 45px;
+  font-family: 'Lobster', cursive;
+  font-size: 70px;
+  color: white;
+  text-decoration: none;
+}
+
+.logo2 a {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: 'Arimo', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  text-align: center;
+  border-bottom: solid white 2px;
+}
+
+li {
+  display: inline-block;
+  margin: 90px 30px 0 30px;
+  padding: 0 20px 20px 20px;
+}
+
+header nav li a {
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+header nav li a:hover {
+  transition: 1s;
+  color: black;
+}
+
+header img {
+  position: relative;
+  top: 187px;
+  left: 420px;
+  width: 37px;
+}
+
+.content {
+  background-color: rgba(218 192 160);
+  border-bottom: solid white 2px;
+  margin: auto;
+  width: 1050px;
+  padding-top: 80px;
+  height: 696px;
+}
+
+.content h2 {
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  color: white;
+  position: relative;
+  left: 149px;
+  margin-top: -60px;
+}
+
+img {
+  width: 264px;
+  margin: 0 -39px 73px 73px;
+}
+
+img:first-of-type:hover {
+  background-image: url(3sapuna.jpg);
+}
+
+.adresa {
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 0px 0 40px;
+  color: white;
+  line-height: 40px;
+}
+
+form {
+  display: inline-block;
+  float: right;
+  width: 450px;
+  margin-right: 40px;
+}
+
+form input {
+  border-radius: 10px;
+  display: block;
+  width: 430px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background-color: rgba(249, 249, 249, 0.1);
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.google {
+  display: inline-block;
+  margin-left: 113px;
+}
+
+.footer {
+  width: 1050px;
+  margin: auto;
+  margin-top: 40px;
+  height: 80px;
+  background-color: rgba(218 192 160);
+}
+
+footer img {
+  width: 20px;
+  float: right;
+  padding-bottom: 30px;
+  padding-right: 40px;
+  margin: 20px 10px 0 0;
+}
+
+footer p {
+  display: inline-block;
+  margin: 30px;
+  color: white;
+  font-family: 'Nanum Gothic', sans-serif;
+}
